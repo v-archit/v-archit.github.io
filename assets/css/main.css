@@ -178,7 +178,7 @@ input, select, textarea {
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.65;
-		margin: 0 0 1em 0;
+		margin: 0 0 0 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2226,7 +2226,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 		padding-left: 1em;
 	}
 
@@ -3006,13 +3006,13 @@ input, select, textarea {
 				-ms-align-items: center;
 				align-items: center;
 				padding: 2em 3em 0.1em 3em ;
-				width: 70%;
+				width: 100%;
 			}
 
 				.spotlights > section > .content > .inner {
 					margin: 0 auto;
 					max-width: 100%;
-					width: 65em;
+					width: 100em;
 				}
 
 			.spotlights > section:nth-child(2n) {
@@ -3405,14 +3405,14 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		padding: 6em 0 2em 0 ;
+		padding: 0 0 0 0 ;
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
-		height: 60vh;
+		height: 30vh;
 		margin-bottom: -3.25em;
 		max-height: 32em;
 		min-height: 22em;
@@ -3462,6 +3462,7 @@ input, select, textarea {
 
 			#banner > .inner header {
 				width: auto;
+				margin: 0em 0em 0em -6em;
 			}
 
 				#banner > .inner header > :first-child {
@@ -3481,7 +3482,7 @@ input, select, textarea {
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
-				margin: 0 0 2em 0;
+				margin: 0em 0em 0em -6em;
 			}
 
 				#banner > .inner .content > * {
@@ -3623,7 +3624,7 @@ input, select, textarea {
 			#main > * > .inner {
 				padding: 4em 0 2em 0 ;
 				margin: 0 auto;
-				max-width: 65em;
+				max-width: 100em;
 				width: calc(100% - 6em);
 			}
 
