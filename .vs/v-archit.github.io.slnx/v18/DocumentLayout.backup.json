@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\archi\\Desktop\\v-archit.github.io\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\archi\\Desktop\\v-archit.github.io\\into.html||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:into.html||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\archi\\Desktop\\v-archit.github.io\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\archi\\Desktop\\v-archit.github.io\\into_chat.html||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:into_chat.html||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\archi\\Desktop\\v-archit.github.io\\elements.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:elements.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\archi\\Desktop\\v-archit.github.io\\food_chat.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:food_chat.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "into.html",
-              "DocumentMoniker": "C:\\Users\\archi\\Desktop\\v-archit.github.io\\into.html",
-              "RelativeDocumentMoniker": "into.html",
-              "ToolTip": "C:\\Users\\archi\\Desktop\\v-archit.github.io\\into.html",
-              "RelativeToolTip": "into.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "elements.html",
+              "DocumentMoniker": "C:\\Users\\archi\\Desktop\\v-archit.github.io\\elements.html",
+              "RelativeDocumentMoniker": "elements.html",
+              "ToolTip": "C:\\Users\\archi\\Desktop\\v-archit.github.io\\elements.html",
+              "RelativeToolTip": "elements.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-03-12T23:09:41.227Z",
+              "WhenOpened": "2026-03-13T01:13:56.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "into_chat.html",
-              "DocumentMoniker": "C:\\Users\\archi\\Desktop\\v-archit.github.io\\into_chat.html",
-              "RelativeDocumentMoniker": "into_chat.html",
-              "ToolTip": "C:\\Users\\archi\\Desktop\\v-archit.github.io\\into_chat.html",
-              "RelativeToolTip": "into_chat.html",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAEIAAAATAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\archi\\Desktop\\v-archit.github.io\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Users\\archi\\Desktop\\v-archit.github.io\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-03-12T23:06:41.639Z",
+              "WhenOpened": "2026-03-13T01:13:15.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "food_chat.html",
+              "DocumentMoniker": "C:\\Users\\archi\\Desktop\\v-archit.github.io\\food_chat.html",
+              "RelativeDocumentMoniker": "food_chat.html",
+              "ToolTip": "C:\\Users\\archi\\Desktop\\v-archit.github.io\\food_chat.html",
+              "RelativeToolTip": "food_chat.html",
+              "ViewState": "AgIAABQBAAAAAAAAAAAAACoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-13T01:09:41.139Z",
               "EditorCaption": ""
             }
           ]

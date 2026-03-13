@@ -1764,11 +1764,9 @@ input, select, textarea {
 	}
 
 	header.major {
-		width: -moz-max-content;
-		width: -webkit-max-content;
-		width: -ms-max-content;
-		width: max-content;
+		width: 100%;
 		margin-bottom: 2em;
+		margin-left: 0;
 	}
 
 		header.major > :first-child {
@@ -3400,6 +3398,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
+		justify-content: flex-start;
 		background-image: url("../../images/FirstImage.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -3454,6 +3453,8 @@ input, select, textarea {
 			padding: 0 !important;
 			position: relative;
 			z-index: 2;
+			margin-left: 0;
+			width: 100%;
 		}
 
 			#banner > .inner .image {
@@ -3461,8 +3462,8 @@ input, select, textarea {
 			}
 
 			#banner > .inner header {
-				width: auto;
-				margin: 0em 0em 0em -6em;
+				width: 100%;
+				margin: 0em 0em 0em 0em;
 			}
 
 				#banner > .inner header > :first-child {
@@ -3482,7 +3483,7 @@ input, select, textarea {
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
-				margin: 0em 0em 0em -6em;
+				margin: 0em 0em 0em 0em;
 			}
 
 				#banner > .inner .content > * {
@@ -3971,3 +3972,9 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+/*fix the left alignment of banner*/
+#banner .inner {
+	width: 100%;
+	max-width: none;
+	margin-left: clamp(1rem, 4vw, 4rem);
+}
