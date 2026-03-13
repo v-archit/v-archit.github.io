@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <html>
 <head>
     <title>Archit Vishnoi Portfolio</title>
@@ -28,16 +28,16 @@
                 </span>
 
                 <header class="major">
-                    <h1>Into The Babyverse</h1>
+                    <h1>VRchive</h1>
                 </header>
 
                 <div class="content">
                     <p>
-                        6DOF Space Shooter <br><br>
+                        Virtual Reality Interactive Experience <br><br>
 
-                        Role: Solo Developer (Capstone) <br>
-                        Engine: Unreal Engine (C++ & Blueprint) <br>
-                        Platform: Windows
+                        Role: Lead Developer <br>
+                        Engine: Unity (C#) + SteamVR <br>
+                        Platform: HTC Vive VR System
                     </p>
                 </div>
 
@@ -60,82 +60,36 @@
                             </header>
 
                             <p>
-                                Into The Babyverse is a fast-paced 6DOF space shooter set inside a baby’s imagination.
-                                The player controls a baby space explorer whose mission is to rescue planet-shaped toys
-                                from aliens trying to abduct them.<br />
-                                The game draws inspiration from the toddler toy game Rock-a-Stack and transforms
-                                its playful concept into a surreal space shooter experience.
+                                VRchive is a virtual reality experience built using the SteamVR API
+                                in Unity and deployed on the HTC Vive headset with two base stations
+                                and wireless controllers.<br />
+                                The experience is designed as a treasure hunt game set inside a
+                                digitally reconstructed version of Sabarmati Ashram. Players must
+                                locate hidden objects that emit sound cues and interact with them
+                                using VR controllers.
                             </p>
 
                         </div>
                     </div>
                 </section>
 
-                <!-- DEMO VIDEOS -->
+                <!-- DEMO VIDEO -->
 
                 <section>
                     <div class="content">
                         <div class="inner">
 
                             <header class="major">
-                                <h3>Demo Videos</h3>
+                                <h3>Demo Video</h3>
                             </header>
 
-                            <h4>Gameplay Overview</h4>
                             <div class="video-wrapper">
                                 <iframe width="50%" height="340"
-                                        src="https://www.youtube.com/embed/st0FEibBtJk?rel=0"
+                                        src="https://www.youtube.com/embed/h1heygyI1jw?rel=0"
                                         frameborder="0"
                                         allowfullscreen>
                                 </iframe>
                             </div>
-
-                            <h4>Onboarding & Mechanics Tutorial</h4>
-                            <div class="video-wrapper">
-                                <iframe width="50%" height="340"
-                                        src="https://www.youtube.com/embed/CNJwHUQQ8QI?rel=0"
-                                        frameborder="0"
-                                        allowfullscreen>
-                                </iframe>
-                            </div>
-
-                            <h4>Alien Invasion Cutscene</h4>
-                            <div class="video-wrapper">
-                                <iframe width="50%" height="340"
-                                        src="https://www.youtube.com/embed/dLBZOxw33HQ?rel=0"
-                                        frameborder="0"
-                                        allowfullscreen>
-                                </iframe>
-                            </div>
-
-                            <h4>Core Game Loop</h4>
-                            <div class="video-wrapper">
-                                <iframe width="50%" height="340"
-                                        src="https://www.youtube.com/embed/PfNhPWiQYvQ?rel=0"
-                                        frameborder="0"
-                                        allowfullscreen>
-                                </iframe>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
-
-                <!-- PLAYABLE BUILD -->
-
-                <section>
-                    <div class="content">
-                        <div class="inner">
-
-                            <header class="major">
-                                <h3>Playable Build</h3>
-                            </header>
-
-                            <p>
-                                <a href="https://drive.google.com/file/d/1ldIJWvI6RhfScOsuaCjgN1uf8fDCcem9/view?usp=sharing" target="_blank">
-                                    Download Game Build
-                                </a>
-                            </p>
 
                         </div>
                     </div>
@@ -152,11 +106,11 @@
                             </header>
                             <p>
                             <ul>
-                                <li>Designed and implemented the complete gameplay system</li>
-                                <li>Built a 6DOF movement system for free-space navigation</li>
-                                <li>Implemented spline-based object movement and interactions</li>
-                                <li>Developed physics-based gameplay mechanics</li>
-                                <li>Optimized gameplay performance and camera behaviour</li>
+                                <li>Designed and implemented the VR gameplay mechanics</li>
+                                <li>Developed object interaction using VR controller input</li>
+                                <li>Implemented audio cues for gameplay navigation</li>
+                                <li>Created level layout and optimized environment assets</li>
+                                <li>Integrated NavMesh AI for environmental interaction</li>
                             </ul>
                             </p>
                         </div>
@@ -175,24 +129,53 @@
                             <p>
                             <h4>Languages</h4>
                             <ul>
-                                <li>C++</li>
-                                <li>Blueprint</li>
+                                <li>C#</li>
                             </ul>
 
                             <h4>Engine Systems</h4>
                             <ul>
-                                <li>Unreal Engine Physics System</li>
-                                <li>6DOF Movement Implementation</li>
-                                <li>Spline Management</li>
+                                <li>Unity Engine</li>
+                                <li>SteamVR API</li>
+                                <li>NavMesh AI</li>
                             </ul>
 
-                            <h4>Tools</h4>
+                            <h4>Hardware Platform</h4>
                             <ul>
-                                <li>Unreal Engine Editor</li>
-                                <li>Visual Studio</li>
-                                <li>Git</li>
+                                <li>HTC Vive Headset</li>
+                                <li>SteamVR Base Stations</li>
+                                <li>VR Motion Controllers</li>
                             </ul>
                             </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ARCHITECTURE -->
+
+                <section>
+                    <div class="content">
+                        <div class="inner">
+
+                            <header class="major">
+                                <h3>Architecture</h3>
+                            </header>
+
+                            <pre class="code-block">
+                            VR Input System
+                               |-- Controller Tracking
+                               |-- Object Interaction
+                                    |
+                            Unity Game Logic
+                               |-- Gameplay Mechanics
+                               |-- Sound Cue System
+                               |-- Environment Navigation
+                            </pre>
+
+                            <p>
+                                The system integrates SteamVR controller tracking with Unity gameplay
+                                logic to enable immersive object interactions and spatial navigation.
+                            </p>
+
                         </div>
                     </div>
                 </section>
@@ -207,27 +190,22 @@
                                 <h3>Key Systems</h3>
                             </header>
 
-                            <h4>Onboarding Tutorial System</h4>
+                            <h4>VR Interaction System</h4>
                             <p>
-                                The game begins with an interactive tutorial that teaches movement,
-                                shooting, boosting, and hooking mechanics. Players must perform
-                                each action using keyboard and mouse input to progress through the tutorial.
+                                Players interact with objects using handheld controllers,
+                                grabbing and manipulating items using physics-based interactions.
                             </p>
 
-                            <h4>Cutscene & Explosion Effect</h4>
+                            <h4>Audio-Based Navigation</h4>
                             <p>
-                                The alien invasion cutscene was implemented using camera transitions
-                                and shader techniques. The explosion effect was achieved by rapidly
-                                expanding a sphere mesh while applying a shader with disabled depth pass.
-                                Camera exposure dynamically increases relative to distance from the explosion
-                                to simulate high-energy light emission.
+                                Hidden objects emit sound cues that guide the player through
+                                the environment, encouraging exploration.
                             </p>
 
-                            <h4>Gameplay Loop System</h4>
+                            <h4>Environment Navigation</h4>
                             <p>
-                                Players must rescue planet toys from being pulled into a black hole
-                                by guiding them into a toy bucket using shooting mechanics or
-                                hook-and-pull physics interactions.
+                                NavMesh AI systems were used to manage environmental movement
+                                and interactive behaviours within the VR scene.
                             </p>
 
                         </div>
@@ -245,8 +223,8 @@
                             </header>
                             <p>
                             <ul>
-                                <li>Implemented a full 6DOF movement system for unrestricted space navigation.</li>
-                                <li>Developed physics-driven interaction mechanics using Unreal Engine systems.</li>
+                                <li>Developed a fully interactive VR experience using SteamVR and HTC Vive.</li>
+                                <li>Designed immersive gameplay mechanics combining audio navigation and VR interaction.</li>
                             </ul>
                             </p>
                         </div>
@@ -263,16 +241,16 @@
                                 <h3>Challenges & Solutions</h3>
                             </header>
 
-                            <h4>Player Orientation in 6DOF Space</h4>
+                            <h4>VR Interaction Precision</h4>
                             <p>
-                                Free-space movement can easily disorient players. Camera behaviour
-                                and movement responsiveness were tuned to maintain intuitive controls.
+                                Ensuring accurate object grabbing and interaction required
+                                fine-tuning of controller mapping and physics parameters.
                             </p>
 
-                            <h4>Physics Interaction Stability</h4>
+                            <h4>Player Orientation in VR</h4>
                             <p>
-                                Managing physics interactions between moving objects required careful
-                                balancing of forces and collision responses to maintain smooth gameplay.
+                                Sound cues and spatial design were used to guide players
+                                through the environment without traditional UI elements.
                             </p>
 
                         </div>
@@ -290,9 +268,9 @@
                             </header>
                             <p>
                             <ul>
-                                <li>Optimized physics interactions for smooth gameplay</li>
-                                <li>Balanced camera exposure and visual effects for consistent frame rate</li>
-                                <li>Maintained stable performance during multiple simultaneous object interactions</li>
+                                <li>Optimized scene lighting and assets for stable VR frame rates</li>
+                                <li>Reduced physics overhead for smooth controller interactions</li>
+                                <li>Maintained consistent performance across large VR environments</li>
                             </ul>
                             </p>
                         </div>
